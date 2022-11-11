@@ -16,8 +16,5 @@ linksArray.forEach(texto => {
     }).catch(err => {
         console.log({ href: replaceText, text: linkText, file: fileMd, word: 'fail', status: '404' });
     });
-    /*fetch(replaceText).then(response => {
-        console.log(response.status)
-    });*/
 
 });
